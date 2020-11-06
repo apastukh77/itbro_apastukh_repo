@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        IT BRO - Легкові автомобілі з іноземною реєстрацією
+    </title>
+</head>
+
+<body style="margin:0; padding:0;">
+    <!-- -------------------------- ----Header------------ ------------------------------ -->
+    <header style="background: beige; margin-top: -20px; padding-top: 10px; padding-bottom: 10px;">
+        <h1 align=center style="width: 60%; padding-left: 20%;">
+            Отримання дозволу учасниками бойових дій на ввезення одного легкового автомобілю з
+            іноземною реєстрацією до України без сплати мита та подальшої перереєстрації
+        </h1>
+    </header>
+    <!-- -----------X-------------------Header----------------------X-------------------- -->
+    <!-- --------------------------------Main------------ ------------------------------ -->
+    <main>
+        <hr align="center" width="500" size="4" color="beige" />
+        <hr align="center" width="500" size="2" color="beige" />
+        <div align="center" style="max-width:60%; margin-left: auto;  margin-right: auto; font-weight: bold;">
+            <h2 align=center style="font-weight: bold; margin-bottom: 30px;">
+                Оберить автомобіль та подайте заявку
+            </h2>
+            <!------------------------------form------------------------------------------>
+            <form action="#" method="POST" style="background-color: beige;">
+                <fieldset>
+                    <legend>
+                        Форма подання заявки
+                    </legend>
+                    <div>
+                        <p>
+                            Прізвище, ім'я та по-батькові
+                        </p>
+                        <input placeholder=" Ваше прізвище, ім'я та по-батькові" tabindex="1" name="username"
+                            style="width: 60%; padding: .3rem .5rem;" type="text">
+                    </div>
+                    <div>
+                        <p>
+                            Номер телефону
+                        </p>
+                        <input placeholder="Ваш номер телефону" tabindex="2" name="userphone"
+                            style="width: 60%; padding: .3rem .5rem;" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                            value="" maxlength="13" type="tel">
+                        <br>
+                        <small>
+                            Формат: 068-456-78-90
+                        </small>
+                    </div>
+                    <div>
+                        <p>
+                            Вкажить серію та номер посвідчення УБД
+                        </p>
+                        <input placeholder="Серія та номер посвідчення УБД" tabindex="3" name="ubd"
+                            style="width: 60%; padding: .3rem .5rem;" type="text">
+                    </div>
+                    <div>
+                        <p>Чи раніше завозили автомобілі до України?</p>
+                        <div style="display:flex; flex-direction: row; justify-content: space-around">
+                            <p><input tabindex="4" checked name="paid_customs_fee_earlier" value="no"
+                                    type="radio">&nbsp;&nbsp;Ні</p>
+                            <p><input tabindex="4" name="paid_customs_fee_earlier" value="yes"
+                                    type="radio">&nbsp;&nbsp;Так
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Оберить тип автомобільного кузову
+                        </p>
+                        <select tabindex="5" name="type_of_car_body">
+                            <option selected value="type_of_car_body_Sedan">Седан</option>
+                            <option value="type_of_car_body_Hatchback">Хэтчбек</option>
+                            <option value="type_of_car_body_Wagon">Универсал</option>
+                            <option value="type_of_car_body_Liftback">Лифтбэк</option>
+                            <option value="type_of_car_body_Coupe">Купе</option>
+                            <option value="type_of_car_body_Convertible">Кабриолет</option>
+                            <option value="type_of_car_body_Roadster">Родстер</option>
+                            <option value="type_of_car_body_Stretch">Стретч</option>
+                            <option value="type_of_car_body_Targa">Тарга</option>
+                            <option value="type_of_car_body_SUV">Внедорожник</option>
+                            <option value="type_of_car_body_Crossover">Кроссовер</option>
+                            <option value="type_of_car_body_Pickup">Пикап</option>
+                            <option value="type_of_car_body_Van">Фургон</option>
+                            <option value="type_of_car_body_Minivan">Минивэн</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>
+                            Оберить марку автомобіля
+                        </p>
+                        <select tabindex="6" name="car_model">
+                            <option value="car_model_Audi">Audi</option>
+                            <option selected value="car_model_BMV">BMV</option>
+                            <option value="car_model_Chery">Chery</option>
+                            <option value="car_model_Chevrolet">Chevrolet</option>
+                            <option value="car_model_Citroen">Citroen</option>
+                            <option value="car_model_Dacia">Dacia</option>
+                            <option value="car_model_Daewoo">Daewoo</option>
+                            <option value="car_model_Fiat">Fiat</option>
+                            <option value="car_model_Ford">Ford</option>
+                            <option value="car_model_Geely">Geely</option>
+                            <option value="car_model_Honda">Honda</option>
+                            <option value="car_model_Hyundai">Hyundai</option>
+                            <option value="car_model_Isuzu">Isuzu</option>
+                            <option value="car_model_Iveco">Iveco</option>
+                            <option value="car_model_Kia">Kia</option>
+                            <option value="car_model_Mazda">Mazda</option>
+                            <option value="car_model_Nissan">Nissan</option>
+                            <option value="car_model_Opel">Opel</option>
+                            <option value="car_model_Ravon">Ravon</option>
+                            <option value="car_model_Renault">Renault</option>
+                            <option value="car_model_Seat">Seat</option>
+                            <option value="car_model_Skoda">Skoda</option>
+                            <option value="car_model_Toyota">Toyota</option>
+                            <option value="car_model_Volkswagen">Volkswagen</option>
+                            <option value="car_model_Volvo">Volvo</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>
+                            Оберить з якої країни
+                        </p>
+                        <select tabindex="7" name="from_country">
+                            <option value="from_country_Bulgaria">Болгарія</option>
+                            <option value="from_country_Greece">Греція</option>
+                            <option value="from_country_Estonia">Естонія</option>
+                            <option value="from_country_Italy">Італія</option>
+                            <option value="from_country_Latvia">Латвія</option>
+                            <option value="from_country_Lithuania">Літва</option>
+                            <option value="from_country_Germany">Німеччіна</option>
+                            <option selected value="from_country_Poland">Польща</option>
+                            <option value="from_country_Romania">Румунія</option>
+                            <option value="from_country_Slovakia">Словаччіна</option>
+                            <option value="from_country_Hungary">Угорщина</option>
+                            <option value="from_country_CzechRepublic">Чехія</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>
+                            Подати заявку
+                        </p>
+                        <button tabindex="8" style="width: 30%;" type="submit">
+                            Подати
+                        </button>
+                        <button tabindex="9" style="width: 30%;" type="reset">
+                            Збросити
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+            <!-------------X-----------------form-----------------------X---------------->
+        </div>
+    </main>
+    <!-- ----------X---------------------Main------------ ----------------X-------------- -->
+    <!-- --------------------------------Footer------------ ------------------------------ -->
+    <br><br>
+    <footer style="background: beige; padding: 20px;  margin-top: 20px; text-align: center;">
+        <div align="right" class="uptotop">
+            <a href="#">
+                &uarr;
+            </a>
+        </div>
+    </footer>
+    <!-- ----------X---------------------Footer------------ ----------------X-------------- -->
+</body>
+
+</html>
